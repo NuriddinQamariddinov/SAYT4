@@ -1,0 +1,72 @@
+*{
+margin: 0;
+padding: 0;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    list-style:none ;
+    justify-content: end;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color: burlywood;
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+.profile{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-text h1{
+    font-size: 50px;
+}
+
+.profile-text hr{
+    margin: 20px 0;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    width: 45%;
+}
+
+.briefly{
+    width: 45%;
+}
+
+.contact p {
+    margin: 15px 0;
+}
+
+
+.briefly h2,p{
+    margin: 20px 0;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+.skills p{
+    margin: 15px 0;
+}
+
+.skills h3{
+    color:  rgb(130, 125, 96);
+margin: 15px 0;
+}
